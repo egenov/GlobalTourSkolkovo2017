@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
     "Name": "SkAddProjectJiraTaskTrackerUserTask",
-    "ModifiedOnUtc": "\/Date(1490630161000)\/",
+    "ModifiedOnUtc": "\/Date(1490682569000)\/",
     "ManagerName": "ProcessUserTaskSchemaManager",
     "Caption": "Действие процесса Добавление задач Jira в проект",
     "DependsOn": []

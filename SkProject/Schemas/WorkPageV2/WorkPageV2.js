@@ -2,9 +2,9 @@ define("WorkPageV2", [], function() {
 	return {
 		entitySchemaName: "Project",
 		details: /**SCHEMA_DETAILS*/{
-	"SkSchema2Detail7e295fb1": {
-		"schemaName": "SkSchema2Detail",
-		"entitySchemaName": "SkProjectTaskTracking",
+	"SkSchema1Detail60487f20": {
+		"schemaName": "SkSchema1Detail",
+		"entitySchemaName": "SkProjectTaskTracker",
 		"filter": {
 			"detailColumn": "SkProject",
 			"masterColumn": "Id"
@@ -47,23 +47,6 @@ define("WorkPageV2", [], function() {
 				"row": 1
 			}
 		}
-	},
-	{
-		"operation": "insert",
-		"name": "SkJiraQueryFilterbacbd229-ac16-4dd4-9305-abe80113a5f2",
-		"values": {
-			"layout": {
-				"colSpan": 12,
-				"rowSpan": 1,
-				"column": 0,
-				"row": 2,
-				"layoutName": "Header"
-			},
-			"bindTo": "SkJiraQueryFilter"
-		},
-		"parentName": "Header",
-		"propertyName": "items",
-		"index": 3
 	},
 	{
 		"operation": "merge",
@@ -194,14 +177,57 @@ define("WorkPageV2", [], function() {
 	},
 	{
 		"operation": "insert",
-		"name": "SkSchema2Detail7e295fb1",
+		"name": "HistoryTabGroupaed0f9c0",
+		"values": {
+			"caption": {
+				"bindTo": "Resources.Strings.HistoryTabGroupaed0f9c0GroupCaption"
+			},
+			"itemType": 15,
+			"markerValue": "added-group",
+			"items": []
+		},
+		"parentName": "HistoryTab",
+		"propertyName": "items",
+		"index": 0
+	},
+	{
+		"operation": "insert",
+		"name": "HistoryTabGridLayout9ac5b7da",
+		"values": {
+			"itemType": 0,
+			"items": []
+		},
+		"parentName": "HistoryTabGroupaed0f9c0",
+		"propertyName": "items",
+		"index": 0
+	},
+	{
+		"operation": "insert",
+		"name": "SkJiraQueryFilter9a580f70-d17d-4abb-b71a-bdef65b54d60",
+		"values": {
+			"layout": {
+				"colSpan": 12,
+				"rowSpan": 1,
+				"column": 0,
+				"row": 0,
+				"layoutName": "HistoryTabGridLayout9ac5b7da"
+			},
+			"bindTo": "SkJiraQueryFilter"
+		},
+		"parentName": "HistoryTabGridLayout9ac5b7da",
+		"propertyName": "items",
+		"index": 0
+	},
+	{
+		"operation": "insert",
+		"name": "SkSchema1Detail60487f20",
 		"values": {
 			"itemType": 2,
 			"markerValue": "added-detail"
 		},
 		"parentName": "HistoryTab",
 		"propertyName": "items",
-		"index": 0
+		"index": 1
 	}
 ]/**SCHEMA_DIFF*/,
 		methods: {},

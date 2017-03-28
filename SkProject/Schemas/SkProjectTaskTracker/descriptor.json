@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "07f94e09-4a92-46fb-adfd-5d125c3e34d8",
+    "Name": "SkProjectTaskTracker",
+    "ModifiedOnUtc": "\/Date(1490684737000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Задачи команды разработки",
+    "DependsOn": []
+  }
+}
