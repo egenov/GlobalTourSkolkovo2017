@@ -8,6 +8,7 @@
       "Name": "BaseGridDetailV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Схема детали: \"Задачи команды разработки\""
+    "Caption": "Схема детали: \"Задачи команды разработки\"",
+    "DependsOn": []
   }
 }

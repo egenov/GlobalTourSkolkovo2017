@@ -4,6 +4,7 @@
     "Name": "SkProjectTaskTrackerService",
     "ModifiedOnUtc": "\/Date(1490685782000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "SkProjectTaskTrackerService"
+    "Caption": "SkProjectTaskTrackerService",
+    "DependsOn": []
   }
 }

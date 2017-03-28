@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Схема раздела: \"Проекты\""
+    "Caption": "Схема раздела: \"Проекты\"",
+    "DependsOn": []
   }
 }

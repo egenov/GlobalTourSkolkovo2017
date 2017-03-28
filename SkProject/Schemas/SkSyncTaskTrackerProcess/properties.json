@@ -3,10 +3,10 @@
     "CreatedInVersion": "7.10.0.1365",
     "IsActiveVersion": "True",
     "IsCreatedInSvg": "True",
-    "IsInterpretable": "True",
+    "IsInterpretable": "False",
     "IsQuickModel": "False",
     "Tag": "Business Process",
-    "UseForceCompile": "False",
+    "UseForceCompile": "True",
     "Version": "0"
   }
 }

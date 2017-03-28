@@ -8,6 +8,7 @@
       "Name": "BasePageV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Карточка схемы: \"Задачи команды разработки\""
+    "Caption": "Карточка схемы: \"Задачи команды разработки\"",
+    "DependsOn": []
   }
 }

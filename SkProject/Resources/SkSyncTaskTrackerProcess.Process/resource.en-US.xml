@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Resources Culture="ru-RU">
+<Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
 			<Item Name="BaseElements.ScriptTask1.Caption" Value="Sync" />
-			<Item Name="Caption" Value="Процесс синхронизации с Task Tracker" />
+			<Item Name="Caption" Value="Процесс синхронизации с Task Tracking" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="Parameters.ProjectId.Caption" Value="Проект" />

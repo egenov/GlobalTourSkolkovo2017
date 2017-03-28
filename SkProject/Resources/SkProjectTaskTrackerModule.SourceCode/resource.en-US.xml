@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Parameters.ProjectId.Caption" Value="Description 1" />
+			<Item Name="Caption" Value="SkProjectTaskTrackerModule" />
 		</Items>
 	</Group>
 </Resources>
