@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Схема детали: &quot;Задачи команды разработки&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Задачи команды разработки" />
+			<Item Name="LocalizableStrings.LoadFromTaskTrackerCaption.Value" Value="Загрузить из системы TaskTracker" />
 		</Items>
 	</Group>
 </Resources>

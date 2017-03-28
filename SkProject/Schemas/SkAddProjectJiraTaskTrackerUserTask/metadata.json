@@ -194,7 +194,7 @@
           "L8": {}
         }
       ],
-      "FK1": "var userConnection = this.UserConnection;\nSkITaskTrackerConnector connector = new SkJiraConnector(userConnection);\nSkITaskTrackerParser parser = new SkJiraResponseParser();\nSkTaskTracker tracker = new SkTaskTracker(connector, parser);\nList<SkTaskTrackerData> result = tracker.GetData(this.JiraQueryFilter, null);\nif (result == null) {\n\treturn true;\n}\nAddToJiraTaskTracker(result);\nreturn true;",
+      "FK1": "var userConnection = this.UserConnection;\nSkITaskTrackerConnector connector = new SkJiraConnector(userConnection);\nSkITaskTrackerParser parser = new SkJiraParser();\nSkTaskTracker tracker = new SkTaskTracker(connector, parser);\nList<SkTaskTrackerData> result = tracker.GetData(this.JiraQueryFilter, null);\nif (result == null) {\n\treturn true;\n}\nAddToJiraTaskTracker(result);\nreturn true;",
       "FK12": "#839DC3"
     }
   }

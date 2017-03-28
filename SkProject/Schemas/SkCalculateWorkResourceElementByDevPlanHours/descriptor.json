@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "485160c8-e98a-425c-9d72-57497081737b",
+    "Name": "SkCalculateWorkResourceElementByDevPlanHours",
+    "ModifiedOnUtc": "\/Date(1490681570000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Бизнес-процесс по пересчету плановых часов разработки на основании задач команды разработки",
+    "DependsOn": []
+  }
+}
