@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e00789d7-4022-4df7-bc06-12e40184ad4c",
+    "Name": "ProjectPageV2",
+    "ModifiedOnUtc": "\/Date(1490608906000)\/",
+    "Parent": {
+      "UId": "64ff4a0a-0e11-4884-afe3-e25c95fff2f4",
+      "Name": "ProjectPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования проекта"
+  }
+}

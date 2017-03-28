@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1678128f-b70a-4c83-aa90-86558e3fc89c",
+    "Name": "ProjectSectionV2",
+    "ModifiedOnUtc": "\/Date(1490001941000)\/",
+    "Parent": {
+      "UId": "7e6d3506-603b-480a-b90a-9ff75f64c249",
+      "Name": "ProjectSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Проекты\""
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2bb638ee-0686-4279-ae84-a6ed698e0694",
+    "PackageVersion": "7.8.0",
+    "Name": "SkJira",
+    "ModifiedOnUtc": "\/Date(1489998908000)\/",
+    "Maintainer": "Skolkovo",
+    "DependsOn": []
+  }
+}

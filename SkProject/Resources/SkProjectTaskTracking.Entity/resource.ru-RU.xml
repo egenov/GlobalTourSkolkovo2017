@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Задачи команды разработки" />
+			<Item Name="Columns.SkDescription.Caption" Value="Описание" />
+			<Item Name="Columns.SkEstimate.Caption" Value="Оценка, часов" />
+			<Item Name="Columns.SkKey.Caption" Value="Ключ" />
+			<Item Name="Columns.SkOwner.Caption" Value="Ответственный" />
+			<Item Name="Columns.SkProject.Caption" Value="Проект" />
+			<Item Name="Columns.SkTitle.Caption" Value="Заголовок" />
+			<Item Name="Columns.SkType.Caption" Value="Тип" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

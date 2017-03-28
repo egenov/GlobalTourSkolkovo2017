@@ -1,0 +1,200 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+      "A2": "SkAddProjectJiraTaskTrackerUserTask",
+      "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+      "B1": [
+        {
+          "UId": "793f3b1d-aa5b-400c-a106-8ddd29d014fc",
+          "A2": "GetResultParameterAllValues",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "C1": "Dictionary<Guid, string>",
+          "C2": true,
+          "C3": true,
+          "C4": "return new Dictionary<Guid, string>();",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "c188543f-49ec-471d-8b4b-b000349a1f78",
+              "A2": "userConnection",
+              "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "UserConnection"
+            },
+            {
+              "UId": "08c9e9c1-b00e-4660-accf-b1d7962bdaaf",
+              "A2": "schemaUserTask",
+              "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "ProcessSchemaUserTask"
+            }
+          ]
+        },
+        {
+          "UId": "e30e8eff-90e9-4879-99e1-c68326311cd9",
+          "A2": "CompleteExecuting",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "C1": "bool",
+          "C2": true,
+          "C3": true,
+          "C4": "return base.CompleteExecuting(parameters);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "9fd34862-ba9d-4076-b6e8-0a967465dd9a",
+              "A2": "parameters",
+              "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "object[]",
+              "AA3": true
+            }
+          ]
+        },
+        {
+          "UId": "32d45aae-3aed-45b6-ad08-da9aaf516133",
+          "A2": "CancelExecuting",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.CancelExecuting(parameters);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "457bf839-fbaf-4c44-a892-cb166b439213",
+              "A2": "parameters",
+              "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "object[]",
+              "AA3": true
+            }
+          ]
+        },
+        {
+          "UId": "26ee055d-9192-40d5-a46d-cc2537efb137",
+          "A2": "GetExecutionData",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "C1": "string",
+          "C2": true,
+          "C3": true,
+          "C4": "return string.Empty;",
+          "C6": [],
+          "C7": []
+        },
+        {
+          "UId": "a25890b7-6f02-4171-84ea-b992709a3fe4",
+          "A2": "SynchronizeDynamicParameters",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.SynchronizeDynamicParameters(userConnection, target);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "7abe8249-9d24-4e09-ab61-1265e07c4a2c",
+              "A2": "userConnection",
+              "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "UserConnection"
+            },
+            {
+              "UId": "cc135204-d14e-4553-9696-216228a78fa5",
+              "A2": "target",
+              "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "ProcessUserTaskSchema"
+            }
+          ]
+        },
+        {
+          "UId": "af5a5829-1f4f-4207-97c0-2e1017a16371",
+          "A2": "AddToJiraTaskTracker",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "C1": "void",
+          "C4": "var userConnection = this.UserConnection;\nvar schema = userConnection.EntitySchemaManager.GetInstanceByName(\"SkProjectTaskTracking\");\nvar esq = new EntitySchemaQuery(schema);\nesq.AddAllSchemaColumns();\nesq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal,\n\t\"SkProject\", this.ProjectId));\nesq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal,\n\t\"SkKey\", result.Select(x => x.Id).Cast<object>()));\nvar entityCollection = esq.GetEntityCollection(userConnection);\nList<string> foundKeys = new List<string>();\nforeach (var entityCollectionItem in entityCollection) {\n\tvar key = entityCollectionItem.GetTypedColumnValue<string>(\"SkKey\");\n\tfoundKeys.Add(key);\n\tvar trackerData = result.Where(x => x.Id == key).FirstOrDefault();\n\tif (trackerData != null) {\n\t\tentityCollectionItem.SetColumnValue(\"SkTitle\", trackerData.Title);\n\t\tentityCollectionItem.SetColumnValue(\"SkType\", trackerData.Type);\n\t\tentityCollectionItem.SetColumnValue(\"SkOwner\", trackerData.Owner);\n\t\tentityCollectionItem.SetColumnValue(\"SkDescription\", trackerData.Description);\n\t\tentityCollectionItem.SetColumnValue(\"SkEstimate\", trackerData.Estimate);\n\t}\n\tentityCollectionItem.Save();\n}\n\nforeach (var item in result.Where(x=>!foundKeys.Contains(x.Id))) {\n\tvar entity = schema.CreateEntity(userConnection);\n\tentity.SetDefColumnValues();\n\tentity.SetColumnValue(\"SkProjectId\", this.ProjectId);\n\tentity.SetColumnValue(\"SkKey\", item.Id);\n\tentity.SetColumnValue(\"SkTitle\", item.Title);\n\tentity.SetColumnValue(\"SkType\", item.Type);\n\tentity.SetColumnValue(\"SkOwner\", item.Owner);\n\tentity.SetColumnValue(\"SkDescription\", item.Description);\n\tentity.SetColumnValue(\"SkEstimate\", item.Estimate);\n\tentity.Save();\n}",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "41cc82dd-3d30-418e-bcb4-2ee1601a4b9f",
+              "A2": "result",
+              "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+              "AA2": "List<SkTaskTrackerData>"
+            }
+          ]
+        }
+      ],
+      "B2": [],
+      "B3": [
+        {
+          "UId": "67f9146d-2954-48b7-9ff9-b6792f21153e",
+          "A2": "Terrasoft.Configuration.Jira",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "GF1": "null"
+        },
+        {
+          "UId": "a0e2bbc2-3259-428f-bf56-346d5cc0b06b",
+          "A2": "Terrasoft.Configuration",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "GF1": "null"
+        },
+        {
+          "UId": "62c0ea59-8629-4562-9275-ed95c1535a81",
+          "A2": "System.Linq",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
+          "GF1": "null"
+        }
+      ],
+      "B6": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+      "B8": "7.10.0.1365",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "1d6558b2-dda0-41b5-a3b3-5dc2de2e616b",
+          "A2": "ProjectId",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS2": ""
+          },
+          "L9": "a11d7fa4-9946-494c-ae41-2169844d29be"
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "22211b9a-09f9-4cd6-8233-0b9b25ecafad",
+          "A2": "JiraQueryFilter",
+          "A3": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "A4": "754e69e8-73d3-4f55-a0f6-a3e1532a2fbe",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {}
+        }
+      ],
+      "FK1": "var userConnection = this.UserConnection;\nSkITaskTrackerConnector connector = new SkJiraConnector(userConnection);\nSkITaskTrackerParser parser = new SkJiraResponseParser();\nSkTaskTracker tracker = new SkTaskTracker(connector, parser);\nList<SkTaskTrackerData> result = tracker.GetData(this.JiraQueryFilter, null);\nif (result == null) {\n\treturn true;\n}\nAddToJiraTaskTracker(result);\nreturn true;",
+      "FK12": "#839DC3"
+    }
+  }

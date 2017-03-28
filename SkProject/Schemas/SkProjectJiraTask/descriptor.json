@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "30e732a5-c9ad-476e-9e5f-ebe3d49ae713",
+    "Name": "SkProjectJiraTask",
+    "ModifiedOnUtc": "\/Date(1490001816000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Задачи проекта в Jira",
+    "DependsOn": []
+  }
+}

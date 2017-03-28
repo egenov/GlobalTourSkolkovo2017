@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "ecaeea9a-8c67-495c-9a5d-7c8c3472e2b5",
+    "Name": "Project",
+    "ModifiedOnUtc": "\/Date(1490603479000)\/",
+    "Parent": {
+      "UId": "a11d7fa4-9946-494c-ae41-2169844d29be",
+      "Name": "Project"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Проект",
+    "DependsOn": []
+  }
+}

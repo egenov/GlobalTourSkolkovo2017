@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "11fb6eba-6593-497b-91c3-17b067a01217",
+    "Name": "SkSchema1Detail",
+    "ModifiedOnUtc": "\/Date(1490001807000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Задачи в Jira\""
+  }
+}

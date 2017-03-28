@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e7adc42e-a001-46f8-ab1b-83fb8347bc7b",
+    "Name": "SkSyncTaskTrackerProcess",
+    "ModifiedOnUtc": "\/Date(1490618531000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Процесс синхронизации с Task Tracking",
+    "DependsOn": []
+  }
+}

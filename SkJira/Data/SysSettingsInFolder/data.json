@@ -1,0 +1,58 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c768f6aa-6b62-4213-8635-0ea3962b7b2b"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "3e0c9375-e473-4a01-a888-099b029f6c3c",
+          "DisplayValue": "Jira"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "643b3da4-69da-4f93-9d2f-573bfc1c87c8",
+          "DisplayValue": "Пароль пользователя Jira"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9ea3b68c-b7aa-4747-82d3-13eb4a7c36b0"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "3e0c9375-e473-4a01-a888-099b029f6c3c",
+          "DisplayValue": "Jira"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "1ecff717-4af9-4d61-8e0c-b1be28252bbd",
+          "DisplayValue": "Логин пользователя Jira"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7704f287-b252-453c-9996-a8bad2ec7d26"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "3e0c9375-e473-4a01-a888-099b029f6c3c",
+          "DisplayValue": "Jira"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "ae601427-13ce-4ce1-a2ca-5147b6c9bfbf",
+          "DisplayValue": "Адрес сервера Jira"
+        }
+      ]
+    }
+  ]
+}
