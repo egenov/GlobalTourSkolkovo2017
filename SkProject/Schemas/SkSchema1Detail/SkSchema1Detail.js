@@ -25,23 +25,10 @@ define("SkSchema1Detail", ["ServiceHelper"], function(ServiceHelper) {
 			 */
 			loadFromTaskTracker: function() {
 				var recordId = this.get("MasterRecordId");
-				Terrasoft.chain(
-					function(next) {
-						this.syncTaskTrackerProcess(recordId, function() {
-							next();
-						});
-					},
-					function(next) {
-						this.calculateTotalPlanValue(recordId, function() {
-							next();
-						});
-					},
-					function() {
-						this.reloadGridData();
-						this.hideBodyMask(); 
-					},
-					this
-				);
+				this.syncTaskTrackerProcess(recordId, function() {
+					this.reloadGridData();
+					this.hideBodyMask(); 
+				});
 			},
 			/**
 			 * Call process SkSyncTaskTrackerProcess
@@ -51,25 +38,8 @@ define("SkSchema1Detail", ["ServiceHelper"], function(ServiceHelper) {
 			 */
 			syncTaskTrackerProcess: function(projectId, callback) {
 				Terrasoft.ProcessModuleUtilities.runProcess(
-					"SkSyncTaskTrackerProcess", { projectId: projectId }, callback, this);
+					"SkSyncTaskTrackerProcess", { ProjectId: projectId }, callback, this);
 			},
-			/**
-			 * Call SkProjectTaskTrackerService.CalculateTotalPlanValue
-			 * @private
-			 * @param  {Guid}   projectId 
-			 * @param  {Function} callback 
-			 */
-			calculateTotalPlanValue: function(projectId, callback) {
-				ServiceHelper.callService({
-					serviceName: "SkProjectTaskTrackerService",
-					methodName: "CalculateTotalPlanValue",
-					data: {
-						projectId: projectId
-					},
-					scope: this,
-					callback: callback
-				});
-			}
 		}
 	};
 });

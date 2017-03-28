@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+    "Name": "SkCalcPlanProjectTaskTrackerUserTask",
+    "ModifiedOnUtc": "\/Date(1490689189000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "Действие процесса Пересчет плановых трудозатрат из TaskTracker",
+    "DependsOn": []
+  }
+}

@@ -4,9 +4,11 @@
 		<Items>
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Фильтр не заполнен" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Читать данные из проекта" />
-			<Item Name="BaseElements.UserTask1.Caption" Value="Действие процесса Добавление задач Jira в проект 1" />
+			<Item Name="BaseElements.UserTask1.Caption" Value="Действие процесса Добавление задач TaskTracker в проект" />
 			<Item Name="BaseElements.UserTask1.Parameters.JiraQueryFilter.DisplayValue" Value="[#Читать данные из проекта.Первый элемент результирующей коллекции.Фильтр задач в Jira#]" />
 			<Item Name="BaseElements.UserTask1.Parameters.ProjectId.DisplayValue" Value="[#Проект#]" />
+			<Item Name="BaseElements.UserTask2.Caption" Value="Действие процесса Пересчет плановых трудозатрат из TaskTracker" />
+			<Item Name="BaseElements.UserTask2.Parameters.ProjectId.DisplayValue" Value="[#Проект#]" />
 			<Item Name="Caption" Value="Процесс синхронизации с Task Tracking" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

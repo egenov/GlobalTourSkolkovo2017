@@ -1,0 +1,157 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+      "A2": "SkCalcPlanProjectTaskTrackerUserTask",
+      "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+      "B1": [
+        {
+          "UId": "4974bd6f-e261-41ac-96db-ee30a3cd2349",
+          "A2": "GetResultParameterAllValues",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+          "C1": "Dictionary<Guid, string>",
+          "C2": true,
+          "C3": true,
+          "C4": "return new Dictionary<Guid, string>();",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "a4059496-5a60-4f86-8023-eb226842747d",
+              "A2": "userConnection",
+              "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+              "AA2": "UserConnection"
+            },
+            {
+              "UId": "2d944630-af3e-4ab9-bb0e-c329f1d0abed",
+              "A2": "schemaUserTask",
+              "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+              "AA2": "ProcessSchemaUserTask"
+            }
+          ]
+        },
+        {
+          "UId": "379b50d9-c6a0-4b41-8c9b-4314256569a4",
+          "A2": "CompleteExecuting",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+          "C1": "bool",
+          "C2": true,
+          "C3": true,
+          "C4": "return base.CompleteExecuting(parameters);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "098fa92d-b4d4-428f-a40f-abd1026aa3fe",
+              "A2": "parameters",
+              "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+              "AA2": "object[]",
+              "AA3": true
+            }
+          ]
+        },
+        {
+          "UId": "1c566561-69d1-4e8c-9891-878624dd1816",
+          "A2": "CancelExecuting",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.CancelExecuting(parameters);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "4702878b-f18b-4287-bbc0-62159603bbc8",
+              "A2": "parameters",
+              "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+              "AA2": "object[]",
+              "AA3": true
+            }
+          ]
+        },
+        {
+          "UId": "12946b87-6333-4b87-8b12-66278f21b4fc",
+          "A2": "GetExecutionData",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+          "C1": "string",
+          "C2": true,
+          "C3": true,
+          "C4": "return string.Empty;",
+          "C6": [],
+          "C7": []
+        },
+        {
+          "UId": "db3a80ed-3f93-40c4-930e-9592104c00e1",
+          "A2": "SynchronizeDynamicParameters",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.SynchronizeDynamicParameters(userConnection, target);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "8d663a08-6090-4239-9948-b4c53456c665",
+              "A2": "userConnection",
+              "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+              "AA2": "UserConnection"
+            },
+            {
+              "UId": "58784ef2-da9c-425e-8853-397da6064177",
+              "A2": "target",
+              "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+              "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+              "AA2": "ProcessUserTaskSchema"
+            }
+          ]
+        }
+      ],
+      "B2": [],
+      "B3": [
+        {
+          "UId": "169e370a-6c6d-4fe7-91f2-ab420b1058e4",
+          "A2": "Terrasoft.Configuration",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A5": "22178d25-81b6-4a8c-8d22-61d0384785e0",
+          "GF1": "null"
+        }
+      ],
+      "B6": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+      "B8": "7.10.0.1365",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "ccbfc268-c3df-421c-8edf-a1e639119b73",
+          "A2": "ProjectId",
+          "A3": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "A4": "b00e1034-4549-4c5c-a3b8-a7e0213ba7ea",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS2": ""
+          },
+          "L9": "a11d7fa4-9946-494c-ae41-2169844d29be"
+        }
+      ],
+      "FK1": "SkProjectTaskTrackerService service = new SkProjectTaskTrackerService();\nservice.UpdateWorkResourceElementPlan(this.ProjectId, UserConnection);\nreturn true;",
+      "FK12": "#839DC3"
+    }
+  }

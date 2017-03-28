@@ -13,29 +13,13 @@ namespace Terrasoft.Configuration
 	[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
 	public class SkProjectTaskTrackerService
 	{
-		#region Properties: Private
+		#region Methods: Public
 
-		/// <summary>
-		/// Пользовательское подключение
-		/// </summary>
-		private UserConnection _userConnection;
-		private UserConnection UserConnection
-		{
-			get
-			{
-				return _userConnection ?? (_userConnection = HttpContext.Current.Session["UserConnection"] as UserConnection);
-			}
-		}
-
-		#endregion
-
-		#region Methods: Private
-
-		private void UpdateWorkResourceElementPlan(Guid projectId) {
-			using (var dbExecutor = UserConnection.EnsureDBConnection()) {
-				new Update(UserConnection, "WorkResourceElement")
+		public void UpdateWorkResourceElementPlan(Guid projectId, UserConnection userConnection) {
+			using (var dbExecutor = userConnection.EnsureDBConnection()) {
+				new Update(userConnection, "WorkResourceElement")
 					.Set("ModifiedOn", Column.Parameter(DateTime.UtcNow))
-					.Set("PlanningWork", new Select(UserConnection)
+					.Set("PlanningWork", new Select(userConnection)
 						.Column(Func.Sum("SkEstimate"))
 						.From("SkProjectTaskTracker")
 						.Where("SkProjectId").In(Column.Parameters(projectId))
@@ -44,14 +28,18 @@ namespace Terrasoft.Configuration
 					.Execute(dbExecutor);
 			}
 		}
-
-		#endregion
-
+		
 		[OperationContract]
 		[WebInvoke(Method = "POST", UriTemplate = "CalculateTotalPlanValue", BodyStyle = WebMessageBodyStyle.Wrapped,
 		RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
 		public void CalculateTotalPlanValue(Guid projectId) {
-			UpdateWorkResourceElementPlan(projectId);
+			if (projectId == Guid.Empty) {
+				throw new ArgumentException("projectId is undefined.");
+			}
+			var userConnection = HttpContext.Current.Session["UserConnection"] as UserConnection;
+			UpdateWorkResourceElementPlan(projectId, userConnection);
 		}
+
+		#endregion
 	}
 }
