@@ -111,6 +111,26 @@ define("SkSkProjectTaskTracker1Page", [], function() {
 ]/**SCHEMA_DIFF*/,
 		methods: {},
 		rules: {},
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+	"SkEstimate": {
+		"fe740014-5662-4e92-a098-fb99f56bf33a": {
+			"uId": "fe740014-5662-4e92-a098-fb99f56bf33a",
+			"enabled": true,
+			"removed": false,
+			"ruleType": 0,
+			"property": 2,
+			"logical": 0,
+			"conditions": [
+				{
+					"comparisonType": 2,
+					"leftExpression": {
+						"type": 1,
+						"attribute": "SkOwner"
+					}
+				}
+			]
+		}
+	}
+}/**SCHEMA_BUSINESS_RULES*/
 	};
 });

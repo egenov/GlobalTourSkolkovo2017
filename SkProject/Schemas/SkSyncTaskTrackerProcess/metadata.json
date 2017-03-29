@@ -10,7 +10,7 @@
       "B3": [
         {
           "UId": "d762f4f9-4d55-4de2-8100-264dd27bfed1",
-          "A2": "Terrasoft.Configuration",
+          "A2": "Terrasoft.Configuration.Skolkovo",
           "A3": "e7adc42e-a001-46f8-ab1b-83fb8347bc7b",
           "A4": "e7adc42e-a001-46f8-ab1b-83fb8347bc7b",
           "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
@@ -124,7 +124,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "var userConnection = this.Get<UserConnection>(\"UserConnection\");\nvar projectId = this.Get<Guid>(\"ProjectId\");\nSkProjectTaskTrackerModule tracker = ClassFactory.Get<SkProjectTaskTrackerModule>(\n\t\t\t\tnew ConstructorArgument(\"userConnection\", userConnection),\n\t\t\t\tnew ConstructorArgument(\"projectId\", projectId));\ntracker.Sync();\nreturn true;",
+          "CH1": "var userConnection = this.Get<UserConnection>(\"UserConnection\");\nvar projectId = this.Get<Guid>(\"ProjectId\");\nSkProjectJiraSync syncer = ClassFactory.Get<SkProjectJiraSync>(\n\t\t\t\tnew ConstructorArgument(\"userConnection\", userConnection),\n\t\t\t\tnew ConstructorArgument(\"projectId\", projectId));\nsyncer.Sync();\nreturn true;",
           "CH2": true
         },
         {

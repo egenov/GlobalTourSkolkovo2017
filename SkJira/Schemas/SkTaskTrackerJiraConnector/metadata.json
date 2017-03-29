@@ -2,8 +2,8 @@
   "MetaData": {
     "Schema": {
       "ManagerName": "SourceCodeSchemaManager",
-      "UId": "92c8f565-3cae-40d4-b20e-515a9d159713",
-      "A2": "SkJiraIssueResponse",
+      "UId": "394fa7a8-3290-4c49-a213-08447f9cac15",
+      "A2": "SkTaskTrackerJiraConnector",
       "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
       "B1": [],
       "B2": [],

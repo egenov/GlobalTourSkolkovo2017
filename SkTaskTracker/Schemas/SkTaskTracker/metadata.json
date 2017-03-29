@@ -2,13 +2,13 @@
   "MetaData": {
     "Schema": {
       "ManagerName": "SourceCodeSchemaManager",
-      "UId": "92c8f565-3cae-40d4-b20e-515a9d159713",
-      "A2": "SkJiraIssueResponse",
+      "UId": "892307ee-f3b3-42e8-9f6c-a34bfaae85e0",
+      "A2": "SkTaskTracker",
       "A5": "40086f32-b5d9-4ed2-8e41-fc3b13b0dfc8",
       "B1": [],
       "B2": [],
       "B3": [],
-      "B6": "2bb638ee-0686-4279-ae84-a6ed698e0694",
+      "B6": "0454861d-1daf-4f68-b188-8c58556ceb45",
       "B8": "7.10.0.1365",
       "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
     }

@@ -10,6 +10,13 @@
     },
     "Columns": [
       {
+        "ColumnUId": "eb971f1a-dd41-4668-99aa-1f2a6b61a1b9",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsCacheable",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
         "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
         "IsForceUpdate": false,
         "IsKey": true,
@@ -56,13 +63,6 @@
         "IsForceUpdate": false,
         "IsKey": false,
         "ColumnName": "IsPersonal",
-        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
-      },
-      {
-        "ColumnUId": "eb971f1a-dd41-4668-99aa-1f2a6b61a1b9",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "IsCacheable",
         "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
       },
       {

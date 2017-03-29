@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "394fa7a8-3290-4c49-a213-08447f9cac15",
+    "Name": "SkTaskTrackerJiraConnector",
+    "ModifiedOnUtc": "\/Date(1490805600000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "TaskTrackerJiraConnector"
+  }
+}

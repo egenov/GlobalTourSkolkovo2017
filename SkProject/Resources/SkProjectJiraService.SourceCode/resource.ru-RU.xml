@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="JiraIssueResponse" />
+			<Item Name="Caption" Value="SkProjectJiraService" />
 		</Items>
 	</Group>
 </Resources>

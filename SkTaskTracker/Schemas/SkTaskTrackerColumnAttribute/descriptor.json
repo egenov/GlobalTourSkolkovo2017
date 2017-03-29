@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "08769bec-8b82-4f76-9afd-59ba69faac27",
+    "Name": "SkTaskTrackerColumnAttribute",
+    "ModifiedOnUtc": "\/Date(1490807997000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "TaskTrackerColumn",
+    "DependsOn": []
+  }
+}

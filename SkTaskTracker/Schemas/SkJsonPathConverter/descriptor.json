@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5628513-c8eb-41d9-ad2c-848c7e4f6bc9",
+    "Name": "SkJsonPathConverter",
+    "ModifiedOnUtc": "\/Date(1490807973000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "JsonPathConverter",
+    "DependsOn": []
+  }
+}

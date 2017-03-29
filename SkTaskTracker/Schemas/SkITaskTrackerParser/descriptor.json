@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cda4fc20-4623-44ed-9867-fa9d05873ad7",
+    "Name": "SkITaskTrackerParser",
+    "ModifiedOnUtc": "\/Date(1490807927000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "ITaskTrackerConnector",
+    "DependsOn": []
+  }
+}

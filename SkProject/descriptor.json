@@ -7,14 +7,14 @@
     "Maintainer": "Skolkovo",
     "DependsOn": [
       {
-        "UId": "2bb638ee-0686-4279-ae84-a6ed698e0694",
-        "PackageVersion": "7.8.0",
-        "Name": "SkJira"
-      },
-      {
         "UId": "99707b27-fb9d-4a8d-a9ce-313a68e7423f",
         "PackageVersion": "7.8.0",
         "Name": "ServiceEnterpriseSoftkey"
+      },
+      {
+        "UId": "2bb638ee-0686-4279-ae84-a6ed698e0694",
+        "PackageVersion": "7.8.0",
+        "Name": "SkJira"
       }
     ]
   }
