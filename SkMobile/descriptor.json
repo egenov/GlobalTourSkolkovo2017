@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "9942cafc-2975-4449-8c38-28b9b042a8ba",
+    "Name": "SkMobile",
+    "ModifiedOnUtc": "\/Date(1490765093000)\/",
+    "Maintainer": "Skolkovo",
+    "DependsOn": [
+      {
+        "UId": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+        "PackageVersion": "7.8.0",
+        "Name": "SkProject"
+      }
+    ]
+  }
+}

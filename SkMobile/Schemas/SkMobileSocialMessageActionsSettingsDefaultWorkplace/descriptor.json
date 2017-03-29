@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "fa5f58f7-71cb-4b9d-b162-d832576ae507",
+    "Name": "SkMobileSocialMessageActionsSettingsDefaultWorkplace",
+    "ModifiedOnUtc": "\/Date(1490719732000)\/",
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "SkMobileSocialMessageActionsSettingsDefaultWorkplace",
+    "DependsOn": []
+  }
+}

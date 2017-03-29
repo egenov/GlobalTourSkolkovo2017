@@ -1,0 +1,42 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ClientUnitSchemaManager",
+      "UId": "f5148faf-fc44-4087-86b9-09d7706502c4",
+      "A2": "SkMobileProjectRecordPageSettingsDefaultWorkplace",
+      "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "6cbec5ca-d294-426d-b8b6-0fe0cff855d7",
+          "A2": "SocialMessageDetailCaptionProject_caption",
+          "A3": "f5148faf-fc44-4087-86b9-09d7706502c4",
+          "A4": "f5148faf-fc44-4087-86b9-09d7706502c4",
+          "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062"
+        },
+        {
+          "UId": "9aa0e95e-2dc9-4e74-82ec-5a7e624f7f19",
+          "A2": "primaryColumnSetProject_caption",
+          "A3": "f5148faf-fc44-4087-86b9-09d7706502c4",
+          "A4": "f5148faf-fc44-4087-86b9-09d7706502c4",
+          "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062"
+        },
+        {
+          "UId": "594b9124-abbc-488d-ab5b-8c17e3351429",
+          "A2": "SkSchema1DetailStandardDetailProject_caption",
+          "A3": "f5148faf-fc44-4087-86b9-09d7706502c4",
+          "A4": "f5148faf-fc44-4087-86b9-09d7706502c4",
+          "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062"
+        }
+      ],
+      "B3": [],
+      "B6": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+      "B8": "7.10.0.1713",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD6": "null",
+      "HD5": [],
+      "HD7": [],
+      "HD8": [],
+      "HD11": []
+    }
+  }

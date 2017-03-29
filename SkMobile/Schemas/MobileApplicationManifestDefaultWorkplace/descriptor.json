@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "b381704f-7a88-4546-a558-1d124203d5d1",
+    "Name": "MobileApplicationManifestDefaultWorkplace",
+    "ModifiedOnUtc": "\/Date(1490720432000)\/",
+    "Parent": {
+      "UId": "2a46e6b2-9ff1-4b56-9e6b-fe3cb1afc109",
+      "Name": "MobileApplicationManifestDefaultWorkplace"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "MobileApplicationManifestDefaultWorkplace",
+    "DependsOn": []
+  }
+}

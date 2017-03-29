@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="es-ES">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="SkMobileProjectRecordPageSettingsDefaultWorkplace" />
+			<Item Name="LocalizableStrings.primaryColumnSetProject_caption.Value" Value="Основная информация" />
+			<Item Name="LocalizableStrings.SkSchema1DetailStandardDetailProject_caption.Value" Value="Задачи команды разработки" />
+			<Item Name="LocalizableStrings.SocialMessageDetailCaptionProject_caption.Value" Value="Лента" />
+		</Items>
+	</Group>
+</Resources>

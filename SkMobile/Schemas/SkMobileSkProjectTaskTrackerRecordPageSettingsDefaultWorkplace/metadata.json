@@ -1,0 +1,35 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ClientUnitSchemaManager",
+      "UId": "7e304feb-8093-4be3-8b05-1ee671c7a153",
+      "A2": "SkMobileSkProjectTaskTrackerRecordPageSettingsDefaultWorkplace",
+      "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "fbaecc9d-b702-41b5-b886-5e748cac1068",
+          "A2": "SocialMessageDetailCaptionSkProjectTaskTracker_caption",
+          "A3": "7e304feb-8093-4be3-8b05-1ee671c7a153",
+          "A4": "7e304feb-8093-4be3-8b05-1ee671c7a153",
+          "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062"
+        },
+        {
+          "UId": "1ebeb5fa-6ac6-4a18-bd9d-aa226680f8ed",
+          "A2": "primaryColumnSetSkProjectTaskTracker_caption",
+          "A3": "7e304feb-8093-4be3-8b05-1ee671c7a153",
+          "A4": "7e304feb-8093-4be3-8b05-1ee671c7a153",
+          "A5": "33449ec0-1ed4-4787-86e8-54cd0c340062"
+        }
+      ],
+      "B3": [],
+      "B6": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+      "B8": "7.10.0.1713",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD6": "null",
+      "HD5": [],
+      "HD7": [],
+      "HD8": [],
+      "HD11": []
+    }
+  }
