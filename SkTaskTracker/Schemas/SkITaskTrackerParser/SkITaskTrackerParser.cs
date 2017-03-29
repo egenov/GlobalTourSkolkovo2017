@@ -5,6 +5,6 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 
 	public interface ITaskTrackerParser
 	{
-		List<T> Parse<T>(string json);
+		T Parse<T>(string json);
 	}
 }

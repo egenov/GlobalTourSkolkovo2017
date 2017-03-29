@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="TaskTracker" />
+			<Item Name="Caption" Value="TaskTrackerParser" />
 		</Items>
 	</Group>
 </Resources>

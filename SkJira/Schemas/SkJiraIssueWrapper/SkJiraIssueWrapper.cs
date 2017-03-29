@@ -4,7 +4,7 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 	using System.Collections.Generic;
 	using Newtonsoft.Json;
 
-	public class JiraIssueResponse<T>
+	public class JiraIssueWrapper<T>
 	{
 		[JsonProperty("total")]
 		public int Total

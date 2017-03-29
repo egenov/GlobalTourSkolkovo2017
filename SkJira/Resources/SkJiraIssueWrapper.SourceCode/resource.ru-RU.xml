@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="JiraTaskTrackerParser" />
+			<Item Name="Caption" Value="JiraIssueWrapper" />
 		</Items>
 	</Group>
 </Resources>

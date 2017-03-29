@@ -10,13 +10,12 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 	using SystemSettings = Terrasoft.Core.Configuration.SysSettings;
 	using TaskTracker;
 
-	public class TaskTrackerJiraConnector : ITaskTrackerConnector
+	public class TaskTrackerJiraConnector : TaskTrackerConnector
 	{
 		#region Constructors: Public
 
 		public TaskTrackerJiraConnector(UserConnection userConnection) {
 			_userConnection = userConnection;
-			Parser = new JiraTaskTrackerParser();
 		}
 
 		#endregion
@@ -38,11 +37,6 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 		#endregion
 
 		#region Properties: Public
-
-		public ITaskTrackerParser Parser
-		{
-			get; set;
-		}
 
 		public string Url
 		{
@@ -126,14 +120,17 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 		/// </summary>
 		/// <param name="searchCriteria">jql query</param>
 		/// <returns>Task items</returns>
-		public List<T> GetTasks<T>(string searchCriteria) {
+		public override T GetTasks<T>(string searchCriteria) {
 			if (string.IsNullOrEmpty(searchCriteria)) {
 				throw new ArgumentException("query is undefined.");
 			}
+			// Make Uri
 			string columnsQuery = MakeSearchColumnsQuery<T>();
 			Uri queryUri = MakeQueryUri(searchCriteria, columnsQuery);
+			// Send Request
 			var json = SendGetQuery(queryUri);
-			return Parser.Parse<T>(json);
+			// Parse Response
+			return Parse<T>(json);
 		}
 
 		#endregion
