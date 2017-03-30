@@ -9,6 +9,8 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 
 	public class JsonPathConverter : JsonConverter
 	{
+		#region Methods: Public
+
 		public override object ReadJson(JsonReader reader, Type objectType,
 									object existingValue, JsonSerializer serializer) {
 			JObject jo = JObject.Load(reader);
@@ -22,7 +24,6 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 					using (JTokenReader jsonReader = new JTokenReader(token)) {
 						value = serializer.Deserialize(jsonReader, prop.PropertyType);
 					}
-
 					prop.SetValue(targetObj, value, null);
 				}
 			}
@@ -45,5 +46,7 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 									   JsonSerializer serializer) {
 			throw new NotImplementedException();
 		}
+
+		#endregion
 	}
 }

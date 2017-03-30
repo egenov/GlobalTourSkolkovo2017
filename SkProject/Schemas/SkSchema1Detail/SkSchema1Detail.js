@@ -39,7 +39,7 @@ define("SkSchema1Detail", ["ServiceHelper"], function(ServiceHelper) {
 			syncTaskTrackerProcess: function(projectId, callback) {
 				Terrasoft.ProcessModuleUtilities.runProcess(
 					"SkSyncTaskTrackerProcess", { ProjectId: projectId }, callback, this);
-			},
+			}
 		}
 	};
 });

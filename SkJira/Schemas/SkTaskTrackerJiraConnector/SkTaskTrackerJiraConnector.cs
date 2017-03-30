@@ -110,16 +110,17 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 			client.Headers.Add("Authorization", GetAuthHeaderValue());
 			return client.DownloadString(query);
 		}
-		
+
 		#endregion
 
 		#region Methods: Public
 
 		/// <summary>
-		/// Get tasks from Jira 
+		/// Get Tasks from Jira system
 		/// </summary>
-		/// <param name="searchCriteria">jql query</param>
-		/// <returns>Task items</returns>
+		/// <typeparam name="T">Jira mapper</typeparam>
+		/// <param name="searchCriteria">Search criteria</param>
+		/// <returns>Jira mapper</returns>
 		public override T GetTasks<T>(string searchCriteria) {
 			if (string.IsNullOrEmpty(searchCriteria)) {
 				throw new ArgumentException("query is undefined.");

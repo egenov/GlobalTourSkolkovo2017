@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="Caption" Value="Задачи команды разработки" />
 			<Item Name="Columns.SkDescription.Caption" Value="Column 1" />
 			<Item Name="Columns.SkEstimate.Caption" Value="Column 1" />
 			<Item Name="Columns.SkKey.Caption" Value="Column 1" />
@@ -9,6 +10,7 @@
 			<Item Name="Columns.SkProject.Caption" Value="Column 1" />
 			<Item Name="Columns.SkTitle.Caption" Value="Column 1" />
 			<Item Name="Columns.SkType.Caption" Value="Column 1" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
 		</Items>
 	</Group>
 </Resources>

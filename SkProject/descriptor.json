@@ -3,18 +3,23 @@
     "UId": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
     "PackageVersion": "7.8.0",
     "Name": "SkProject",
-    "ModifiedOnUtc": "\/Date(1489998908000)\/",
+    "ModifiedOnUtc": "\/Date(1490861634000)\/",
     "Maintainer": "Skolkovo",
     "DependsOn": [
       {
-        "UId": "99707b27-fb9d-4a8d-a9ce-313a68e7423f",
+        "UId": "ca17ff09-8a8b-4af9-8a2a-ff4c0983ba30",
         "PackageVersion": "7.8.0",
-        "Name": "ServiceEnterpriseSoftkey"
+        "Name": "Project"
       },
       {
         "UId": "2bb638ee-0686-4279-ae84-a6ed698e0694",
         "PackageVersion": "7.8.0",
         "Name": "SkJira"
+      },
+      {
+        "UId": "99707b27-fb9d-4a8d-a9ce-313a68e7423f",
+        "PackageVersion": "7.8.0",
+        "Name": "ServiceEnterpriseSoftkey"
       }
     ]
   }

@@ -5,6 +5,8 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 	
 	public class TaskTrackerParser : ITaskTrackerParser
 	{
+		#region Methods: Public
+
 		public T Parse<T>(string json) {
 			if (string.IsNullOrEmpty(json)) {
 				throw new ArgumentException("json is undefined.");
@@ -15,5 +17,7 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 				throw new Exception("Parsing error: " + ex.Message);
 			}
 		}
+
+		#endregion
 	}
 }

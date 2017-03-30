@@ -5,16 +5,24 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 
 	public class TaskTrackerColumnAttribute : Attribute
 	{
+		#region Constructors: Public
+
 		public TaskTrackerColumnAttribute() {
-		
+
 		}
 		public TaskTrackerColumnAttribute(string columnName) {
 			ColumnName = columnName;
 		}
 
+		#endregion
+
+		#region Properties: Public
+
 		public string ColumnName
 		{
 			get; set;
 		}
+
+		#endregion
 	}
 }
