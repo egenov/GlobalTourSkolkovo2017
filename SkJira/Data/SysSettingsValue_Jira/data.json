@@ -3,6 +3,10 @@
     {
       "Row": [
         {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": ""
+        },
+        {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "a0e1e305-c630-47db-882a-39351dc93127"
         },
@@ -14,15 +18,11 @@
         {
           "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
           "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
-          "DisplayValue": "Все сотрудники компании"
-        },
-        {
-          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
-          "Value": true
+          "DisplayValue": "All employees"
         },
         {
           "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
-          "Value": "WhF844nE+5i8bzsD6ilTe2Ti9JWgAZA1a8OxIN17AyELNYzX5DPb6gqGhjMKLEEI"
+          "Value": "5gR8S2dEHGFn6ypJWRasrizzofkTQgNLmfByRzGAwh4t4cp44J3WUmURIVXygPdS"
         },
         {
           "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
@@ -45,17 +45,21 @@
           "Value": "null"
         },
         {
-          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
-          "Value": "null"
-        },
-        {
           "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
           "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": true
         }
       ]
     },
     {
       "Row": [
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": ""
+        },
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "927155a3-8858-49fc-ab1e-c4beb4a6b09a"
@@ -68,15 +72,11 @@
         {
           "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
           "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
-          "DisplayValue": "Все сотрудники компании"
-        },
-        {
-          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
-          "Value": true
+          "DisplayValue": "All employees"
         },
         {
           "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
-          "Value": "admin"
+          "Value": "Jira"
         },
         {
           "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
@@ -99,17 +99,21 @@
           "Value": "null"
         },
         {
-          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
-          "Value": "null"
-        },
-        {
           "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
           "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": true
         }
       ]
     },
     {
       "Row": [
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": ""
+        },
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "ffe1a0c2-6c42-43b3-a339-d195e9071675"
@@ -122,15 +126,11 @@
         {
           "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
           "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
-          "DisplayValue": "Все сотрудники компании"
-        },
-        {
-          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
-          "Value": true
+          "DisplayValue": "All employees"
         },
         {
           "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
-          "Value": "http://jirademo.teamlead.ru/"
+          "Value": "https://terrasoft.atlassian.net/"
         },
         {
           "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
@@ -153,12 +153,12 @@
           "Value": "null"
         },
         {
-          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
-          "Value": "null"
-        },
-        {
           "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
           "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": true
         }
       ]
     }

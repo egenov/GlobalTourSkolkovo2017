@@ -2,13 +2,27 @@
   "Descriptor": {
     "UId": "4645b5ca-664c-4e49-b452-ac39e2ef02de",
     "Name": "SysSettingsValue_Jira",
-    "ModifiedOnUtc": "\/Date(1490598002000)\/",
+    "ModifiedOnUtc": "\/Date(1490865233000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "951b2bbb-0ba3-4049-9a29-b5d4c0b6d50f",
       "Name": "SysSettingsValue"
     },
     "Columns": [
+      {
+        "ColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsDef",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "BinaryValue",
+        "DataTypeValueUId": "b7342b7a-5dde-40de-aa7c-24d2a57b3202"
+      },
       {
         "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
         "IsForceUpdate": false,
@@ -29,13 +43,6 @@
         "IsKey": false,
         "ColumnName": "SysAdminUnit",
         "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
-      },
-      {
-        "ColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "IsDef",
-        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
       },
       {
         "ColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
@@ -78,13 +85,6 @@
         "IsKey": false,
         "ColumnName": "GuidValue",
         "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
-        "ColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "BinaryValue",
-        "DataTypeValueUId": "b7342b7a-5dde-40de-aa7c-24d2a57b3202"
       },
       {
         "ColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
