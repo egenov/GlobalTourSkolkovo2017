@@ -1,0 +1,21 @@
+﻿{
+  "Descriptor": {
+    "UId": "d807382c-e0d3-4291-968a-28b351232880",
+    "Name": "SkProjectTaskTracker",
+	"PackageVersion": "7.8.0",
+    "ModifiedOnUtc": "\/Date(1490875328000)\/",
+    "Maintainer": "Skolkovo",
+    "DependsOn": [
+      {
+        "UId": "2bb638ee-0686-4279-ae84-a6ed698e0694",
+        "PackageVersion": "7.8.0",
+        "Name": "SkJira"
+      },
+      {
+        "UId": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+        "PackageVersion": "7.8.0",
+        "Name": "SkProject"
+      }
+    ]
+  }
+}

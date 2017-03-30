@@ -25,7 +25,7 @@
           "GF1": "null"
         }
       ],
-      "B6": "91ba306d-78b4-493d-b62f-fae1916b6f4e",
+      "B6": "d807382c-e0d3-4291-968a-28b351232880",
       "B8": "7.10.0.1365",
       "FJ1": [
         {
@@ -124,7 +124,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "var userConnection = this.Get<UserConnection>(\"UserConnection\");\nvar projectId = this.Get<Guid>(\"ProjectId\");\nSkProjectJiraSync syncer = ClassFactory.Get<SkProjectJiraSync>(\n\t\t\t\tnew ConstructorArgument(\"userConnection\", userConnection),\n\t\t\t\tnew ConstructorArgument(\"projectId\", projectId));\nsyncer.Sync();\nreturn true;",
+          "CH1": "var userConnection = this.Get<UserConnection>(\"UserConnection\");\nvar projectId = this.Get<Guid>(\"ProjectId\");\nvar syncer = ClassFactory.Get<SkProjectTaskTrackerSync>(\n\t\t\t\tnew ConstructorArgument(\"userConnection\", userConnection),\n\t\t\t\tnew ConstructorArgument(\"projectId\", projectId));\nsyncer.Sync();\nreturn true;",
           "CH2": true
         },
         {

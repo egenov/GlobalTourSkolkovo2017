@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "9bf9b338-4e99-4ed7-8c2a-d7839f094d2e",
     "Name": "SkProjectTaskTrackerSync",
-    "ModifiedOnUtc": "\/Date(1490872355000)\/",
+    "ModifiedOnUtc": "\/Date(1490875411000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "SkProjectTaskTrackerSync"
+    "Caption": "SkProjectTaskTrackerModule",
+    "DependsOn": []
   }
 }
