@@ -44,7 +44,7 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 		/// <typeparam name="T">TaskTracker mapper</typeparam>
 		/// <param name="searchCriteria">Search criteria</param>
 		/// <returns>TaskTracker mapper</returns>
-		public abstract T GetTasks<T>(string searchCriteria);
+		public abstract T[] GetTasks<T>(string searchCriteria);
 
 		#endregion
 	}

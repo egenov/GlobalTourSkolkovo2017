@@ -14,7 +14,7 @@ namespace Terrasoft.Configuration.Skolkovo
 
 	[ServiceContract]
 	[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
-	public class SkProjectJiraService
+	public class SkProjectTaskTrackerService
 	{
 		#region Properties: Private
 
@@ -40,7 +40,7 @@ namespace Terrasoft.Configuration.Skolkovo
 			if (projectId == Guid.Empty) {
 				throw new ArgumentException("projectId is undefined.");
 			}
-			var factoryItem = ClassFactory.Get<SkProjectJiraSync>(
+			var factoryItem = ClassFactory.Get<SkProjectTaskTrackerSync>(
 				new ConstructorArgument("userConnection", UserConnection),
 				new ConstructorArgument("projectId", projectId));
 			factoryItem.Sync();
@@ -56,8 +56,8 @@ namespace Terrasoft.Configuration.Skolkovo
 
 			//TODO: duraion = 0, 3 options 
 			IScheduler scheduler = _schedulerWraper.Instance;
-			Type jobType = typeof(SkProjectJiraJob);
-			IJobDetail job = _schedulerWraper.CreateClassJob(jobType.FullName, "JiraSync",
+			Type jobType = typeof(SkProjectTaskTrackerJob);
+			IJobDetail job = _schedulerWraper.CreateClassJob(jobType.AssemblyQualifiedName, "JiraSync",
 				UserConnection.Workspace.Name, UserConnection.CurrentUser.Name,
 				new Dictionary<string, object>
 				{

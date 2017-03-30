@@ -34,17 +34,21 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 			return true;
 		}
 
+		public override void WriteJson(JsonWriter writer, object value,
+									   JsonSerializer serializer) {
+			throw new NotImplementedException();
+		}
+
+		#endregion
+
+		#region Properties: Public
+
 		public override bool CanWrite
 		{
 			get
 			{
 				return false;
 			}
-		}
-
-		public override void WriteJson(JsonWriter writer, object value,
-									   JsonSerializer serializer) {
-			throw new NotImplementedException();
 		}
 
 		#endregion

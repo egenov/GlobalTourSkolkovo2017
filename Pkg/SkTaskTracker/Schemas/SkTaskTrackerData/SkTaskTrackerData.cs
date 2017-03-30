@@ -2,9 +2,11 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 {
 	using System;
 	using System.Collections.Generic;
-	
+
 	public abstract class TaskTrackerData
 	{
+		#region Properties: Public
+
 		public abstract string Id
 		{
 			get; set;
@@ -29,5 +31,7 @@ namespace Terrasoft.Configuration.Skolkovo.TaskTracker
 		{
 			get; set;
 		}
+
+		#endregion
 	}
 }

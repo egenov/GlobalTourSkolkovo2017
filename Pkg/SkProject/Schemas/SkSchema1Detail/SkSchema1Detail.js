@@ -25,20 +25,36 @@ define("SkSchema1Detail", ["ServiceHelper"], function(ServiceHelper) {
 			 */
 			loadFromTaskTracker: function() {
 				var recordId = this.get("MasterRecordId");
-				this.syncTaskTrackerProcess(recordId, function() {
-					this.reloadGridData();
-					this.hideBodyMask(); 
+				var scope = this;
+				this.delaySyncTaskTrackerService(recordId, 1, function() {
+					scope.reloadGridData();
+					scope.hideBodyMask(); 
 				});
 			},
-			/**
-			 * Call process SkSyncTaskTrackerProcess
-			 * @private
-			 * @param  {Guid}   projectId 
-			 * @param  {Function} callback
-			 */
 			syncTaskTrackerProcess: function(projectId, callback) {
 				Terrasoft.ProcessModuleUtilities.runProcess(
 					"SkSyncTaskTrackerProcess", { ProjectId: projectId }, callback, this);
+			},
+			syncTaskTrackerService: function(projectId, callback) {
+				ServiceHelper.callService({
+					serviceName: "SkProjectTaskTrackerService",
+					methodName: "Sync",
+					data: {
+						projectId: projectId
+					},
+					callback: callback
+				})
+			},
+			delaySyncTaskTrackerService: function(projectId, duration, callback) {
+				ServiceHelper.callService({
+					serviceName: "SkProjectTaskTrackerService",
+					methodName: "DelaySync",
+					data: {
+						projectId: projectId,
+						durationMin: duration
+					},
+					callback: callback
+				})
 			}
 		}
 	};

@@ -6,7 +6,7 @@ namespace Terrasoft.Configuration.Skolkovo
 	using Core.Factories;
 	using Terrasoft.Core.Scheduler;
 
-	public class SkProjectJiraJob : IJobExecutor
+	public class SkProjectTaskTrackerJob : IJobExecutor
 	{
 		#region Methods: Public
 
@@ -18,7 +18,7 @@ namespace Terrasoft.Configuration.Skolkovo
 			if (!parameters.TryGetValue("ProjectId", out projectId)) {
 				return;
 			}
-			var factoryItem = ClassFactory.Get<SkProjectJiraSync>(
+			var factoryItem = ClassFactory.Get<SkProjectTaskTrackerSync>(
 				new ConstructorArgument("userConnection", userConnection),
 				new ConstructorArgument("projectId", projectId));
 			factoryItem.Sync();

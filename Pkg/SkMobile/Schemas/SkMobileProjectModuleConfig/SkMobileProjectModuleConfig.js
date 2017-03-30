@@ -3,8 +3,8 @@ Terrasoft.sdk.Module.addFilter("Project", Ext.create("Terrasoft.Filter", {
 	subfilters: [
 		{
 			property: "ParentProject",
-			isNot: true,
-			compareType: Terrasoft.ComparisonTypes.Equal,
+			isNot: false,
+			compareType: Terrasoft.ComparisonTypes.NotEqual,
 			value: null
 		}
 	]

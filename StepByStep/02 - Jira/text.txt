@@ -4,40 +4,4 @@ Authorization: Basic SmlyYTpKaXJh
 
 2. Переходим на разработку в файловой системе. Настройка config 
 3. Добавляем пакеты кроме Mobile
-
-/**
-			 * Adds menu items to tools button menu items collection.
-			 * @protected
-			 * @virtual
-			 * @param {Terrasoft.BaseViewModelCollection} toolsButtonMenu Tools button menu items collection.
-			 */
-			addToolsButtonMenuItems: function(toolsButtonMenu) {
-				toolsButtonMenu.addItem(this.getButtonMenuItem({
-					"Caption": {"bindTo": "Resources.Strings.LoadFromTaskTrackerCaption"},
-					"Click": {"bindTo": "loadFromTaskTracker"}
-				}));
-				toolsButtonMenu.addItem(this.getButtonMenuSeparator());
-				this.callParent(arguments);
-			},
-			/**
-			 * Call process to load from TaskTracker system
-			 * @protected
-			 * @virtual
-			 */
-			loadFromTaskTracker: function() {
-				var recordId = this.get("MasterRecordId");
-				this.syncTaskTrackerProcess(recordId, function() {
-					this.reloadGridData();
-					this.hideBodyMask(); 
-				});
-			},
-			/**
-			 * Call process SkSyncTaskTrackerProcess
-			 * @private
-			 * @param  {Guid}   projectId 
-			 * @param  {Function} callback
-			 */
-			syncTaskTrackerProcess: function(projectId, callback) {
-				Terrasoft.ProcessModuleUtilities.runProcess(
-					"SkSyncTaskTrackerProcess", { ProjectId: projectId }, callback, this);
-			}
+4. В пакете SkProject заменяем схему SkSchema1Detail

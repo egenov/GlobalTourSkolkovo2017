@@ -121,7 +121,7 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 		/// <typeparam name="T">Jira mapper</typeparam>
 		/// <param name="searchCriteria">Search criteria</param>
 		/// <returns>Jira mapper</returns>
-		public override T GetTasks<T>(string searchCriteria) {
+		public override T[] GetTasks<T>(string searchCriteria) {
 			if (string.IsNullOrEmpty(searchCriteria)) {
 				throw new ArgumentException("query is undefined.");
 			}
@@ -131,7 +131,8 @@ namespace Terrasoft.Configuration.Skolkovo.Jira
 			// Send Request
 			var json = SendGetQuery(queryUri);
 			// Parse Response
-			return Parse<T>(json);
+			//return Parse<T>(json);
+			return (T[]) Parse<JiraIssueWrapper<T>>(json).Issues;
 		}
 
 		#endregion

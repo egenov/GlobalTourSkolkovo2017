@@ -8,11 +8,11 @@ namespace Terrasoft.Configuration.Skolkovo
 	using Core.Entities;
 	using Skolkovo.Jira;
 
-	public class SkProjectJiraSync
+	public class SkProjectTaskTrackerSync
 	{
 		#region Constructors: Public
 
-		public SkProjectJiraSync(UserConnection userConnection, Guid projectId) {
+		public SkProjectTaskTrackerSync(UserConnection userConnection, Guid projectId) {
 			_userConnection = userConnection;
 			_projectId = projectId;
 		}
@@ -57,8 +57,7 @@ namespace Terrasoft.Configuration.Skolkovo
 			}
 		}
 
-		private void Save(JiraIssueWrapper<JiraTaskTrackerData> tasks) {
-			var data = tasks.Issues;
+		private void Save(JiraTaskTrackerData[] data) {
 			var schema = _userConnection.EntitySchemaManager.GetInstanceByName("SkProjectTaskTracker");
 			var esq = new EntitySchemaQuery(schema);
 			esq.AddAllSchemaColumns();
@@ -111,7 +110,7 @@ namespace Terrasoft.Configuration.Skolkovo
 			}
 			// Get Tasks from Jira
 			var jiraConnector = new TaskTrackerJiraConnector(_userConnection);
-			var tasks = jiraConnector.GetTasks<JiraIssueWrapper<JiraTaskTrackerData>>(searchCriteria);
+			var tasks = jiraConnector.GetTasks<JiraTaskTrackerData>(searchCriteria);
 			if (tasks == null) {
 				throw new Exception("tasks is undefined.");
 			}
