@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "dd34193e-07a7-4bd7-8bb3-9a3d37068dba",
+    "Name": "ContactPageV2",
+    "ModifiedOnUtc": "\/Date(1490792443000)\/",
+    "Parent": {
+      "UId": "8737e39c-ac08-4903-acd0-11570570691d",
+      "Name": "ContactPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема отображения карточки контакта"
+  }
+}

@@ -1,1 +1,0 @@
-SkJiraQueryFilter (Критерий поиска в Jira) - поле в Project 

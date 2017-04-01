@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.Day1.Value" Value="День #1" />
+			<Item Name="LocalizableStrings.Day2.Value" Value="День #2" />
+			<Item Name="LocalizableStrings.DayCaptionPattern.Value" Value="День #{0}" />
+			<Item Name="LocalizableStrings.DemoButtonCaption.Value" Value="Сколково 2017" />
+			<Item Name="LocalizableStrings.DemoButtonHint.Value" Value="Старт тура" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Обогатить данными из соц. сетей" />
+			<Item Name="LocalizableStrings.InviteCaption.Value" Value="Пригласить" />
+			<Item Name="LocalizableStrings.OpenLookupCaption.Value" Value="Открыть справочник" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Ошибка получения настроек синхронизации." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="SetUpSynchronization" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Настроить синхронизацию контактов" />
+			<Item Name="LocalizableStrings.StartTourMessage.Value" Value="Добро пожаловать! Мы начинаем глобальный тур bpm`online!" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Подписаться на обновление ленты" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Синхронизировать с контактами Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Синхронизация начата. Мы покажем вам уведомление, когда она завершится." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Настройки синхронизации не заполнены." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="SyncSettingsSetTipCaption" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Поздравляем! Теперь ваши контакты всегда будут актуальными.&lt;br&gt;Вы можете &lt;a href=&quot;#&quot;&gt;изменить настройки&lt;/a&gt;, которые мы установили по умолчанию." />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Отписаться от обновлений ленты" />
+		</Items>
+	</Group>
+</Resources>

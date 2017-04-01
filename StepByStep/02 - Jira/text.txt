@@ -1,7 +1,0 @@
-1. Изучаем API Jira с помощью Fiddler
-GET https://terrasoft.atlassian.net/rest/api/2/search?jql=filter=10001&fields=issuetype,summary,description,customfield_10117,assignee HTTP/1.1
-Authorization: Basic SmlyYTpKaXJh
-
-2. Переходим на разработку в файловой системе. Настройка config 
-3. Добавляем пакеты кроме Mobile
-4. В пакете SkProject заменяем схему SkSchema1Detail

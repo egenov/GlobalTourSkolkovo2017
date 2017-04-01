@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "6f87d051-962c-424a-a289-e169f3e69ee1",
+    "Name": "SkolkovoUIExamples",
+    "ModifiedOnUtc": "\/Date(1490791227000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      }
+    ]
+  }
+}

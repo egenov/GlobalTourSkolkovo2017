@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "42045817-1c00-4ee3-9a74-27a89cc549a8",
+    "Name": "ProjectStructureDetailV2",
+    "ModifiedOnUtc": "\/Date(1490931373000)\/",
+    "Parent": {
+      "UId": "5a765fa9-e766-4d5b-8705-c009b27c906a",
+      "Name": "ProjectStructureDetailV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "ProjectStructureDetailV2"
+  }
+}
