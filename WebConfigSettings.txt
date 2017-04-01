@@ -1,0 +1,91 @@
+/************************************************************************************************************************/
+
+
+//
+// Настройки для разработки
+//
+
+// Loader
+
+<fileDesignMode enabled="true" UseIDEForCompilation="false" />
+
+// WebApp
+
+<add key="UseIncludeDependenciesSource" value="false" />
+<add key="SeparatedJsFiles" value="true" />
+
+/************************************************************************************************************************/
+
+//
+// Работа без редис версия 7.10 и выше
+//
+
+//
+// WebApp
+//
+
+<sessionState mode="InProc" timeout="30" />
+
+//
+// Loader
+//
+
+<storeDataAdapters>
+	<storeAdapter levelName="Request" type="Terrasoft.Core.Store.ConcurrentDictionaryAdapter, Terrasoft.Core" />
+	<storeAdapter levelName="Session" type="Terrasoft.Core.Store.ConcurrentDictionaryAdapter, Terrasoft.Core" />
+	<storeAdapter levelName="Application" type="Terrasoft.Core.Store.ConcurrentDictionaryAdapter, Terrasoft.Core" />
+</storeDataAdapters>
+<storeCacheAdapters>
+	<storeAdapter levelName="Session" type="Terrasoft.Core.Store.ConcurrentDictionaryAdapter, Terrasoft.Core" />
+	<storeAdapter levelName="Workspace" type="Terrasoft.Core.Store.ConcurrentDictionaryAdapter, Terrasoft.Core" />
+	<storeAdapter levelName="Application" type="Terrasoft.Core.Store.ConcurrentDictionaryAdapter, Terrasoft.Core" />
+</storeCacheAdapters>
+
+/************************************************************************************************************************/
+
+
+//
+//Работа без redis (ниже 7.10)
+//
+
+// Loader
+
+<storeDataAdapters>
+      <storeAdapter levelName="Request" type="Terrasoft.Store.WebAdapters.RequestDataStore, Terrasoft.Store.WebAdapters" />
+      <storeAdapter levelName="Session" type="Terrasoft.Store.WebAdapters.SessionDataStore, Terrasoft.Store.WebAdapters" />
+    </storeDataAdapters>
+    <storeCacheAdapters>
+      <storeAdapter levelName="Session" type="Terrasoft.Store.WebAdapters.SessionCacheStore, Terrasoft.Store.WebAdapters">
+        <proxies>
+          <proxy name="Key" type="Terrasoft.Store.WebAdapters.Proxies.SessionKeyProxy, Terrasoft.Store.WebAdapters" />
+        </proxies>
+      </storeAdapter>
+      <storeAdapter levelName="Workspace" type="Terrasoft.Store.WebAdapters.MemoryCacheStore, Terrasoft.Store.WebAdapters">
+        <parameters>
+          <add name="hashId" value="Workspace" />
+        </parameters>
+        <proxies>
+          <proxy name="Key" type="Terrasoft.Store.WebAdapters.Proxies.WorkspaceKeyProxy, Terrasoft.Store.WebAdapters" />
+        </proxies>
+      </storeAdapter>
+      <storeAdapter levelName="Application" type="Terrasoft.Store.WebAdapters.MemoryCacheStore, Terrasoft.Store.WebAdapters">
+        <parameters>
+          <add name="hashId" value="Application" />
+        </parameters>
+        <proxies>
+          <proxy name="ConstPrefix" type="Terrasoft.Core.Store.PrefixKeyTransformerProxy, Terrasoft.Core">
+            <parameters>
+              <add name="prefix" value="ApplicationCache:" />
+            </parameters>
+          </proxy>
+          <proxy name="AppPrefix" type="Terrasoft.Store.WebAdapters.Proxies.ApplicationKeyProxy, Terrasoft.Store.WebAdapters" />
+        </proxies>
+      </storeAdapter>
+    </storeCacheAdapters>
+
+
+// Web App
+
+<sessionState mode="InProc" timeout="30" />
+
+/************************************************************************************************************************/
